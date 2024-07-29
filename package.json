@@ -7,7 +7,6 @@
     "build": "tsc",
     "start": "ts-node src/index.ts",
     "play": "npx ts-node playground.ts"
-    
   },
   "keywords": [],
   "author": "",
@@ -23,7 +22,8 @@
     "mongoose": "^8.5.1",
     "ts-node": "^10.9.2",
     "twilio": "^5.2.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17"

@@ -13,7 +13,7 @@ async function createCall() {
     twiml: `
       <Response>
         <Start>
-          <Stream url="wss://localhost:8080"/>
+          <Stream url="ws://localhost:8080"/>
         </Start>
         <Say>Hello, this call is being transcribed.</Say>
         <Pause length="60"/>
