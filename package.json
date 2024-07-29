@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "play": "npx ts-node playground.ts"
+    
   },
   "keywords": [],
   "author": "",
